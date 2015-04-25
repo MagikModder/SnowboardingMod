@@ -1,0 +1,17 @@
+[
+{
+  "modid": "sm",
+  "name": "-Magik-'s Snowboard Mod",
+  "description": "Snowboarding Mod",
+  "version": "{$Version}",
+  "mcversion": "1.7.0",
+  "release": "Beta",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["-Magik-, and T0psid3"],
+  "credits": "",
+  "logoFile": "Logo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]
