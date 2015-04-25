@@ -1,4 +1,4 @@
-package com.sm.Common.Entity.Ski;
+package com.sm.Common.Entity.ski;
 
 import net.minecraft.client.model.ModelBase;
 import net.minecraft.client.model.ModelRenderer;

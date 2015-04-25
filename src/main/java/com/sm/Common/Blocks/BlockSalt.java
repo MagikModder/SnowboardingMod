@@ -1,12 +1,12 @@
-package com.sm.Common.Blocks;
+package com.sm.Common.blocks;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockFire;
 import net.minecraft.block.material.Material;
 
-public class Salt extends BlockFire
+public class BlockSalt extends BlockFire
 {
-	public Salt()
+	public BlockSalt()
 	{
 		super();
 		this.setHardness(20F);

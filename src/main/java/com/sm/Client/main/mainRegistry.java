@@ -1,8 +1,8 @@
 package com.sm.Client.main;
 import com.sm.Client.utils.CreativeTabTC;
 import com.sm.Client.utils.SpawnEvent;
-import com.sm.Common.Entity.Ski.EntitySki;
-import com.sm.Common.Entity.SnowBoard.EntitySnowboard;
+import com.sm.Common.Entity.ski.EntitySki;
+import com.sm.Common.Entity.snowBoard.EntitySnowboard;
 import com.sm.Common.Items.Snowboarditems;
 
 import net.minecraft.creativetab.CreativeTabs;
@@ -32,8 +32,7 @@ public class mainRegistry
     {
     	Snowboarditems.mainRegistry();
     	MinecraftForge.EVENT_BUS.register(new SpawnEvent());
-    	EntitySnowboard.mainRegistry();
-    	EntitySki.mainRegistry();
+    	
     	
     
     	
@@ -52,7 +51,8 @@ public class mainRegistry
     
     public void preInit(FMLPreInitializationEvent event)
 	{
-
+    	EntitySnowboard.mainRegistry();
+    	EntitySki.mainRegistry();
 		
 	}
 }

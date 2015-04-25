@@ -1,5 +1,4 @@
-package com.sm.Common.Entity.SnowBoard;
-
+package com.sm.Common.Entity.snowBoard;
 import com.sm.Common.Items.Snowboarditems;
 
 import cpw.mods.fml.common.registry.EntityRegistry;
@@ -57,7 +56,6 @@ private static void createEgg(int randomId, int solidColor, int spotColor){
 		super(worldIn);
 		this.preventEntitySpawning = true;
 		this.setSize(1.0F, 0.5F);
-		this.createEntity(EntitySnowboard.class, "Snowboard", 0xDEF22C, 0x707070);
 		this.playSound(string, 1, 1);
 		this.forceSpawn = true;
 		this.dropItem(Snowboarditems.Snowboard, life);

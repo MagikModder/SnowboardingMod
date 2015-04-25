@@ -1,4 +1,4 @@
-package com.sm.Client.Render;
+package com.sm.Client.render;
 
 import com.sm.Client.main.ClientProxy;
 

@@ -1,4 +1,4 @@
-package com.sm.Common.Entity.SnowBoard;
+package com.sm.Common.Entity.snowBoard;
 
 import net.minecraft.client.model.ModelBase;
 import net.minecraft.client.model.ModelRenderer;

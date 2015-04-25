@@ -1,7 +1,7 @@
-package com.sm.Client.Renderer;
+package com.sm.Client.renderer;
 
-import com.sm.Common.Entity.SnowBoard.EntitySnowboard;
-import com.sm.Common.Entity.SnowBoard.Snowboard;
+import com.sm.Common.Entity.snowBoard.EntitySnowboard;
+import com.sm.Common.Entity.snowBoard.Snowboard;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.model.ModelBase;

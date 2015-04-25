@@ -5,10 +5,9 @@ import net.minecraft.client.renderer.entity.Render;
 import net.minecraft.item.Item;
 import net.minecraft.world.World;
 
-import com.sm.Client.Renderer.RenderSnowboard;
-import com.sm.Common.Entity.Ski.EntitySki;
-import com.sm.Common.Entity.SnowBoard.EntitySnowboard;
-import com.sm.Common.Items.Snowboarditems;
+import com.sm.Client.renderer.RenderSnowboard;
+import com.sm.Common.Entity.ski.EntitySki;
+import com.sm.Common.Entity.snowBoard.EntitySnowboard;
 
 import cpw.mods.fml.client.registry.RenderingRegistry;
 import cpw.mods.fml.common.registry.EntityRegistry;

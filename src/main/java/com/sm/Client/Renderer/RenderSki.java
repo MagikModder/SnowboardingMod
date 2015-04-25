@@ -1,4 +1,4 @@
-package com.sm.Client.Renderer;
+package com.sm.Client.renderer;
 
 import net.minecraft.client.renderer.entity.Render;
 import net.minecraft.entity.Entity;

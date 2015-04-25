@@ -1,7 +1,7 @@
-package com.sm.Common.Items.Ski;
+package com.sm.Common.Items.ski;
 
-import com.sm.Common.Items.Snowboard.itemSnowBoard;
+import com.sm.Common.Items.snowboard.ItemSnowBoard;
 
-public class itemSki extends itemSnowBoard{
+public class itemSki extends ItemSnowBoard{
 
 }

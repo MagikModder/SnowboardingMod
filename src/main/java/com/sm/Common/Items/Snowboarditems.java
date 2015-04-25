@@ -5,11 +5,12 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import com.sm.Common.Blocks.Salt;
+
 import com.sm.Client.main.Strings;
 import com.sm.Client.main.mainRegistry;
-import com.sm.Common.Blocks.Lifts;
-import com.sm.Common.Items.Snowboard.itemSnowBoard;
+import com.sm.Common.Items.snowboard.ItemSnowBoard;
+import com.sm.Common.blocks.BlockLifts;
+import com.sm.Common.blocks.BlockSalt;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 
@@ -36,15 +37,13 @@ public static Block FiberGlass;
 	public static void register()
 	{
 		
-		
+		Salt = new BlockSalt();
 		registerBlock(Salt, "Salt");
 		
-		Snowboard = new itemSnowBoard();
+		Snowboard = new ItemSnowBoard();
 		registerTheItem(Snowboard, "snowboard");
 	
-		Snowboard = new itemSnowBoard();
-		Salt = new Salt();
-
+		
 	
 	}
 	public static void registerRecipes()

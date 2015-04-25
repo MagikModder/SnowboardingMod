@@ -1,11 +1,11 @@
-package com.sm.Common.Blocks;
+package com.sm.Common.blocks;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 
-public class Lifts extends Block
+public class BlockLifts extends Block
 {
-	public Lifts()
+	public BlockLifts()
 	{
 		super(Material.wood);
 		this.setHardness(20F);

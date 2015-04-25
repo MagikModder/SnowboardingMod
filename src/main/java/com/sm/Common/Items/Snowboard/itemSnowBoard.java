@@ -1,8 +1,8 @@
-package com.sm.Common.Items.Snowboard;
+package com.sm.Common.Items.snowboard;
  
 import java.util.List;
 
-import com.sm.Common.Entity.SnowBoard.EntitySnowboard;
+import com.sm.Common.Entity.snowBoard.EntitySnowboard;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -22,9 +22,9 @@ import net.minecraft.util.MathHelper;
 import net.minecraft.util.MovingObjectPosition;
 import net.minecraft.util.Vec3;
 import net.minecraft.world.World;
-public class itemSnowBoard extends Item
+public class ItemSnowBoard extends Item
 {
-		public itemSnowBoard()
+		public ItemSnowBoard()
 		{
 			this.maxStackSize = 1;
 			this.setUnlocalizedName("snowboard");
